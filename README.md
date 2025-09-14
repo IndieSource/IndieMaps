@@ -7,10 +7,10 @@
 IndieMaps is a cloud-based geospatial image and data storage, management, and sharing system. Best of all, you can run it on your own server.
 
 ![Screen Shot](images/screen-shots/welcome.png)
-Welcome Screen
+*Welcome*
 
 ![Screen Shot](images/screen-shots/desktop.png)
-Desktop
+*Desktop*
 
 ## Features
 
