@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+
+<LookAt>
+	<longitude>-87.62330</longitude>
+	<latitude>41.88358</latitude>
+	<zoomLevel>7</zoomLevel>
+</LookAt>
+
+<Placemark>
+	<name>Chicago</name>
+	<description>Chicago</description>
+	<Point>
+		<coordinates>-87.62330,41.88358,0</coordinates>
+	</Point>
+</Placemark>
+
+</Document>
+</kml>

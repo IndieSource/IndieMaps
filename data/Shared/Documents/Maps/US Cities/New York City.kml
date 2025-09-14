@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+
+<LookAt>
+	<longitude>-74.01023</longitude>
+	<latitude>40.70738</latitude>
+	<zoomLevel>7.5</zoomLevel>
+</LookAt>
+
+<Placemark>
+	<name>New York City</name>
+	<description>New York City</description>
+	<Point>
+		<coordinates>-74.01023,40.70738,0</coordinates>
+	</Point>
+</Placemark>
+
+</Document>
+</kml>

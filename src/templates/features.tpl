@@ -39,6 +39,41 @@
 	<div class="section">
 		<div class="row">
 			<div class="col-sm-6">
+				<h2><i class="fa fa-image"></i>Map Your Photos and Videos</h2>
+				<p><%= application.name %> will display your geolocated images and videos on a map.  Visualize your collection of cell phone and drone photos geospatially. View GeoTiffs as orthographic map overlays. </p>
+			</div>
+			<div class="col-sm-6">
+				<div class="figure">
+					<div class="photo-globe">
+						<img width="175px" src="images/welcome/globe-icon.svg" />
+						<img width="100px" src="images/welcome/travel-photo.svg" style="transform:rotate(-30); margin-left:-100px" />
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="section">
+		<div class="row">
+			<div class="col-sm-6">
+				<h2><i class="fa fa-map"></i>Create Your Own Maps</h2>
+				<p>Create your own maps, adding markers and metadata as well as geolocated photos and videos. Load and save maps as standard .KML files. </p>
+			</div>
+			<div class="col-sm-6">
+				<div class="figure">
+					<div class="map-with-markers">
+						<img width="200px" src="images/welcome/map-icon.svg" />
+						<img width="100px" src="images/info/features/photo.svg" style="transform:rotate(-30); margin-left:-125px; margin-top:-25px" />
+						<img width="50px" src="images/info/features/map-marker.svg" style="transform:rotate(-30); margin-left:-175px" />
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="section">
+		<div class="row">
+			<div class="col-sm-6">
 				<h2><i class="fa fa-smile"></i>Friendly User Interface</h2>
 				<p>The friendly and familiar user interface has been designed to blend the power of the cloud with the best aspects of the user interfaces that you already know and love. </p>
 			</div>
@@ -100,8 +135,8 @@
 	<div class="section">
 		<div class="row">
 			<div class="col-sm-6">
-				<h2><i class="fa fa-share"></i>File Sharing</h2>
-				<p>Share your files in a variety of ways. </p>
+				<h2><i class="fa fa-share"></i>Geodata Sharing</h2>
+				<p>Share your geodata in a variety of ways. </p>
 				<ul>
 					<li>share by hyperlink</li>
 					<li>share by invitation / shared file or folder</li>
@@ -112,15 +147,15 @@
 				<div class="icon-grid figure">
 					<div class="file item">
 						<div class="row">
-							<div class="icon"><img src="images/icons/files/text.svg" /></div>
+							<div class="icon"><img src="images/icons/files/kml.svg" /></div>
 						</div>
 						<div class="row">
-							<div class="name">File</div>
+							<div class="name">Map</div>
 						</div>
 					</div>
 					<div class="file item">
 						<div class="row">
-							<div class="icon"><img src="images/icons/files/text.svg" /></div>
+							<div class="icon"><img src="images/icons/files/kml.svg" /></div>
 							<div class="badges">
 								<div class="links badge tooltip-trigger" data-toggle="tooltip" title="" data-placement="bottom" data-original-title="has 1 link">
 									<i class="fa fa-link"></i>
@@ -129,20 +164,20 @@
 							</div>
 						</div>
 						<div class="row">
-							<div class="name">Linked File</div>
+							<div class="name">Linked Map</div>
 						</div>
 					</div>
 					<div class="file item">
 						<div class="row">
 							<div class="icon">
-								<img src="images/icons/files/text.svg" />
+								<img src="images/icons/files/kml.svg" />
 								<div class="owner small tile">
 									<div class="thumbnail" style="background-image:url(images/logos/indie-logo.svg"></div>
 								</div>
 							</div>
 						</div>
 						<div class="row">
-							<div class="name">Shared File</div>
+							<div class="name">Shared Map</div>
 						</div>
 					</div>
 					<div class="directory item">
@@ -257,37 +292,6 @@
 	<div class="section">
 		<div class="row">
 			<div class="col-sm-6">
-				<h2><i class="fa fa-paint-roller"></i>Themeable</h2>
-				<p>A set of themes is provided so that each user can make their computing environment match their personal style and preferences. Make it look like your favorite OS, like a vintage OS, or like something totally new and different. </p>
-			</div>
-			<div class="col-sm-6">
-				<div class="figure">
-					<a href="images/info/features/theme-manager.png" target="_blank" class="lightbox" title="Theme Manager"><img src="images/info/features/theme-manager-cropped.png" /></a>
-					<div class="caption">Theme Manager</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="section">
-		<div class="row">
-			<div class="col-sm-6">
-				<a class="unstyled" href="#features/integrated-design">
-					<h2><i class="fa fa-network-wired"></i>Integrated</h2>
-					<p>The integrated design makes it efficient to use because sharing is integrated throughout the system and apps and the apps work seamlessly together. </p>
-				</a>
-			</div>
-			<div class="col-sm-6">
-				<div class="figure">
-					<a href="#features/integrated-design"><img src="images/info/features/integrated-design.png" /></a>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="section">
-		<div class="row">
-			<div class="col-sm-6">
 				<h2><i class="fa fa-mobile"></i>Platform Independent</h2>
 				<p><%= application.name %> works across all of your devices and operating systems.  It runs on your laptop, destop, tablet, or phone and works with Windows, MacOS, Linux, iOS, and Android and requires no installation.  This means that your data and applications will always be accessible no matter what device or OS you're using. <p> 
 			</div>
@@ -296,22 +300,6 @@
 					<a href="images/info/mobile/iphone.png" target="_blank" class="lightbox" title="<%= application.name %> Mobile"><img src="images/info/mobile/iphone.png" /></a>
 					<div class="caption"><%= application.name %> Mobile</div>
 				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="section">
-		<div class="row">
-			<div class="col-sm-6">
-				<h2><i class="fa fa-code"></i>Web Postable</h2>
-				<p>You can <a href="#features/web-postable">post and view</a> files that have been uploaded to <%= application.name %> on other websites easily with just a bit of HTML code. </p>
-			</div>
-			<div class="col-sm-6">
-				<a href="#features/web-postable">
-					<div class="code well">
-		&lt;iframe src="YOUR FILE LINK HERE"&gt;&lt;/iframe&gt
-					</div>
-				</a>
 			</div>
 		</div>
 	</div>

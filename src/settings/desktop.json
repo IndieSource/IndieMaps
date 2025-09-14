@@ -2,9 +2,9 @@
 	"show_app_launcher": true,
 	"preferences": {
 		"desktop_apps": {
-			"phone": ["app_launcher"],
-			"tablet": ["app_launcher"],
-			"desktop": ["file_browser", "communicator"]
+			"phone": ["map_viewer", "file_browser"],
+			"tablet": ["map_viewer", "file_browser"],
+			"desktop": ["map_viewer", "file_browser"]
 		},
 		"admin_apps": {
 			"phone": ["app_launcher"],

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+
+<LookAt>
+	<longitude>-122.4392</longitude>
+	<latitude>37.76664</latitude>
+	<zoomLevel>6</zoomLevel>
+</LookAt>
+
+<Placemark>
+	<name>San Francisco</name>
+	<description>San Francisco</description>
+	<Point>
+		<coordinates>-122.4392,37.76664,0</coordinates>
+	</Point>
+</Placemark>
+
+</Document>
+</kml>
